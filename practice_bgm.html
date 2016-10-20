@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <p id='bgm'></p>
+    <input type="button" onclick="myFunction()" value="01.blossom">
+    <script>
+      var url_result = prompt("번호");
+      if(url_result === '1'){
+        var url = "player.bgmstore.net/X8oM5"
+      }
+      function myFunction(){
+        document.getElementById('bgm').innerHTML = '<p>'+'<a href="http://'+url+'" target="_blank">'+'01. blossom'+'</a>'+'</p>'+
+        '<embed src="http://'+url+'" allowscriptaccess="always" allowfullscreen="true" width="422" height="180">'+
+        '</embed>'+'<br>'
+      }
+      /*
+      '<p>'+'<a href="http://'+url+'" target="_blank">'+'01. blossom'+'</a>'+'</p>'+
+      '<embed src="http://'+url+'" allowscriptaccess="always" allowfullscreen="true" width="422" height="180">'+
+      '</embed>'+'<br>'
+      */
+    </script>
+  </body>
+</html>

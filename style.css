@@ -1,0 +1,29 @@
+body.black{
+  background-color:black;
+  color:white;
+}
+
+body.white{
+  background-color:white;
+  color:black;
+}
+#img_bishojo{
+  width:120px;
+}
+.container{
+  padding-top:20px ;
+}
+#control{
+  margin-bottom:40px;
+}
+article{
+  padding-bottom : 70px ;
+}
+address{
+  padding-left : 15px ;
+  font-style: oblique;
+}
+
+#calendar{
+  height:250px;
+}

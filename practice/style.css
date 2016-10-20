@@ -1,0 +1,28 @@
+  header{
+    border-bottom: 1px solid gray;
+    padding-left: 30px;
+    padding-bottom: 50px;
+  }
+  body{
+    margin:0px;
+  }
+  body.black{
+    background-color:black ;
+    color:white;
+  }
+  nav{
+    border-right: solid 1px gray;
+    width:200px;
+    float:left ;
+    height:700px ;
+  }
+  nav ol{
+    margin:0;
+    padding:20px;
+    list-style:none;
+  }
+  #content{
+    padding-left : 20px ;
+    float : left ;
+    width : 800px ;
+  }
